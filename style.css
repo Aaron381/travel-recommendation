@@ -1,15 +1,17 @@
 body {
     margin: 0;
+    background-color:#326a7c;
+    background-image: url(tokyo.jpg);
+    background-size: 100%;
 }
 
-
-
 nav {
-    background-color: rgba(36, 36, 36, 0.322);
+    background-color: rgba(28, 31, 59, 0.322);
 }
 
 nav a {
-    padding: 14px 16px;
+    color: rgb(229, 231, 210);
+    padding: 37.9px;
     text-decoration: none;
 }
 
@@ -20,27 +22,54 @@ nav a:hover {
 }
 
 nav #active {
-    color: white;
-    text-decoration: underline;
+    color: rgb(145, 145, 145);
+    background-color: rgba(27, 15, 92, 0.534);
 }
 
 #logo {
-    width: 4%;
-    height: 4%;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 50px;
+    width: 10%;
+    height: 10%;
 }
 
 #element1 {
-    display: inline;
-    line-height: 100px;
+    display: inline-flex;
+    /*line-height: 100px;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #element2 {
-    display: inline;
-    line-height: 100px;
+    display: inline-flex;
+    /*line-height: 100px;*/
+    line-height: 30.9px;
     float: right;
+}
 
+#home-intro {
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    margin-left: 100px;
+    /*margin: 100px;*/
+    padding-bottom: 50px;
+    padding-left: 35px;
+    width: 500px;
+    color: rgb(229, 231, 210);
+    background-color: rgba(28, 31, 59, 0.582);
+    float: left;
+}
+
+#home-intro #title {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+#home-intro #text {
+    margin-bottom: 0px
 }
 
 #yo-bar {
