@@ -24,7 +24,7 @@ nav a:hover {
 }
 
 nav #active {
-    color: #00000096; /*919191*/
+    color: #1c1f3bdc; /*919191*/
     background-color: #1b0f5c88;
     background: linear-gradient(#919191, transparent 110%);
 }
@@ -37,7 +37,7 @@ nav #active {
     height: 10%;
 }
 
-#element1 {
+#navbar {
     display: inline-flex;
     /*line-height: 100px;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -62,25 +62,35 @@ nav #active {
 #home-intro {
     display: flex;
     flex-direction: column;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 60px;
-    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-shadow: 1px 1px 2px rgb(59, 57, 82);
     /*margin: 100px;*/
-    padding-bottom: 50px;
-    padding-left: 35px;
-    width: 500px;
     color: rgb(229, 231, 210);
-    background-color: rgba(28, 31, 59, 0.582);
-    float: left;
+    /*background-color: rgba(28, 31, 59, 0.342);*/
+    
 }
 
 #home-intro #title {
-    font-size: 60px;
+    width: 25%;
+    color: rgb(229, 231, 210);
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 50px;
+
 }
 
 #home-intro #text {
-    margin-bottom: 0px
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    float: left;
+    width: 25%;
+    /*align-items: center;*/
 }
 
 #about-intro {
@@ -119,13 +129,13 @@ nav #active {
     display: flex;
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-right: 50px;
-    /*float: right;*/
+    float: right;
 }
 
 #team #title { 
-    font-size: 60px; /*80*/
+    font-size: 60px;
     display: flex;
     align-items: center;
     text-shadow: 1px 1px 2px rgb(59, 57, 82);
@@ -145,7 +155,7 @@ nav #active {
 
 #team-member #name {
     display: flex;
-    font-size: 20px; /*35*/
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 15px;
@@ -164,6 +174,47 @@ nav #active {
     margin-top: 0px;
     text-align: center;
     background-color: rgb(64, 64, 248);
+}
+
+#contact-form {
+    display: flex;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    color: rgb(229, 231, 210);
+    background-color: rgba(44, 40, 58, 0.651);
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
+    border-radius: 15px;
+    padding: 20px;
+    text-shadow: 2px 2px 2px rgb(59, 57, 82);
+
+}
+
+#form-title {
+    display: flex;
+    color: rgb(229, 231, 210);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    justify-content: center;
+    
+}
+
+#contact-form label {
+    margin-top: 10px;
+}
+
+#contact-form textarea {
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+#contact-form #form-buttons {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #yo-bar {
