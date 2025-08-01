@@ -1,12 +1,13 @@
 body {
     margin: 0;
     background-color:#326a7c;
-    background-image: url(tokyo.jpg);
-    background-size: 100%;
+    background-image: url(japan.jpg);
+    background-size: cover;
 }
 
 nav {
-    background-color: rgba(28, 31, 59, 0.322);
+    /*background-color: #1c1f3b21;*/
+    background: linear-gradient(#1c1f3bdc, transparent 110%);
 }
 
 nav a {
@@ -18,17 +19,19 @@ nav a {
 nav a:hover {
     color: white;
     text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: #00000096;
+    background: linear-gradient(#00000096, transparent 110%);
 }
 
 nav #active {
-    color: rgb(145, 145, 145);
-    background-color: rgba(27, 15, 92, 0.534);
+    color: #00000096; /*919191*/
+    background-color: #1b0f5c88;
+    background: linear-gradient(#919191, transparent 110%);
 }
 
 #logo {
     vertical-align: middle;
-    margin-left: 4px;
+    margin-left: 30px;
     margin-right: 50px;
     width: 10%;
     height: 10%;
@@ -44,8 +47,16 @@ nav #active {
 #element2 {
     display: inline-flex;
     /*line-height: 100px;*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(229, 231, 210);
     line-height: 30.9px;
+    padding: 37.9px;
     float: right;
+}
+
+#element2 label {
+    margin-right: 10px;
 }
 
 #home-intro {
@@ -70,6 +81,89 @@ nav #active {
 
 #home-intro #text {
     margin-bottom: 0px
+}
+
+#about-intro {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-shadow: 1px 1px 2px rgb(59, 57, 82);
+    /*margin: 100px;*/
+    color: rgb(229, 231, 210);
+    /*background-color: rgba(28, 31, 59, 0.342);*/
+    
+}
+
+#about-intro #title {
+    color: rgb(229, 231, 210);
+    font-size: 120px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#about-intro #text {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    float: left;
+    width: 30%;
+    /*align-items: center;*/
+}
+
+#team {
+    color: rgb(229, 231, 210); 
+    display: flex;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+    margin-right: 50px;
+    /*float: right;*/
+}
+
+#team #title { 
+    font-size: 60px; /*80*/
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px 2px rgb(59, 57, 82);
+    margin-right: 50px;
+}
+
+#team-member {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 10px;
+    color: rgb(229, 231, 210);
+    background-color: rgba(44, 40, 58, 0.651);
+    text-shadow: 2px 2px 2px rgb(59, 57, 82);
+    border-radius: 15px;
+}
+
+#team-member #name {
+    display: flex;
+    font-size: 20px; /*35*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+#team-member #desc {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+#team-member #role {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(64, 64, 248);
 }
 
 #yo-bar {
