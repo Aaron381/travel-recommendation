@@ -1,13 +1,12 @@
 body {
     margin: 0;
     background-color:#326a7c;
-    background-image: url(japan.jpg);
+    background-image: url(bg.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 
 nav {
-    /*background-color: #1c1f3b21;*/
     background: linear-gradient(#1c1f3bdc, transparent 110%);
 }
 
@@ -25,7 +24,7 @@ nav a:hover {
 }
 
 nav #active {
-    color: #1c1f3bdc; /*919191*/
+    color: #1c1f3bdc; 
     background-color: #1b0f5c88;
     background: linear-gradient(#919191, transparent 110%);
 }
@@ -40,14 +39,12 @@ nav #active {
 
 #navbar {
     display: inline-flex;
-    /*line-height: 100px;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
 
-#element2 {
+#search-bar {
     display: inline-flex;
-    /*line-height: 100px;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     color: rgb(229, 231, 210);
@@ -56,7 +53,7 @@ nav #active {
     float: right;
 }
 
-#element2 label {
+#search-bar label {
     margin-right: 10px;
 }
 
@@ -68,10 +65,7 @@ nav #active {
     margin-left: 50px;
     margin-right: 100px;
     text-shadow: 1px 1px 2px rgb(59, 57, 82);
-    /*margin: 100px;*/
     color: rgb(229, 231, 210);
-    /*background-color: rgba(28, 31, 59, 0.342);*/
-    
 }
 
 #home-intro #title {
@@ -91,7 +85,6 @@ nav #active {
     margin-left: 50px;
     float: left;
     width: 25%;
-    /*align-items: center;*/
 }
 
 #about-intro {
@@ -102,10 +95,7 @@ nav #active {
     margin-left: 50px;
     margin-right: 100px;
     text-shadow: 1px 1px 2px rgb(59, 57, 82);
-    /*margin: 100px;*/
     color: rgb(229, 231, 210);
-    /*background-color: rgba(28, 31, 59, 0.342);*/
-    
 }
 
 #about-intro #title {
@@ -122,7 +112,6 @@ nav #active {
     margin-left: 20px;
     float: left;
     width: 40%;
-    /*align-items: center;*/
 }
 
 #team {
@@ -211,7 +200,7 @@ nav #active {
     height: 100px;
 }
 
-#contact-form #form-buttons {
+#contact-form #form-button {
     display: flex;
     margin-top: 10px;
     flex-direction: row;
@@ -232,9 +221,7 @@ nav #active {
     margin-left: 50px;
     margin-right: 50px;
     text-shadow: 2px 2px 2px rgb(59, 57, 82);
-    /*margin: 100px;*/
     color: rgb(229, 231, 210);
-    /*background-color: rgba(28, 31, 59, 0.342);*/
 }
 
 #yo-bar img {

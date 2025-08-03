@@ -14,22 +14,15 @@
         <a id="active" href="contact.html">Contact Us</a>
     </div>
     </nav>
-    <!--<div id="contact-intro">
-        <h1 id="title"></h1>
-    </div>-->
     <h1 id="form-title">CONTACT US</h1>
-    <form id="contact-form" action="/my-handling-form-page" method="post">
-        <!--<h1 id="title">CONTACT US</h1>-->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" placeholder="Enter your name"/>
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email" placeholder="Enter your email"/>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message" placeholder="Enter your message"></textarea>
-        <div id="form-buttons">
-            <button type="submit">Send your message</button>
-            <button type="reset">Reset</button>
-        </div>
+    <form id="contact-form" onsubmit="return alert('Your message has been sent!');">
+        <label>Name:</label>
+        <input id="contact-name" type="text" placeholder="Enter your name" required/>
+        <label>Email:</label>
+        <input id="contact-email" type="email" placeholder="Enter your email" required/>
+        <label>Message:</label>
+        <textarea id="contact-msg" required></textarea>
+        <button id="contact-submit-button" type="submit">Send your message</button>
     </form>
 </body>
 </html>

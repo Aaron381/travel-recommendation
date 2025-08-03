@@ -1,5 +1,6 @@
 var searchButton = document.getElementById("search-button");
 var clearButton = document.getElementById("clear-button");
+var submitButton = document.getElementById("contact-submit-button");
 var sheet = window.document.styleSheets[0];
 
 function clear() {
@@ -56,14 +57,6 @@ function searchPlace() {
         <h2 id="desc">${data.beaches[0].description}</h2></div>
         </div>`;
       }
-      /*if (country) {
-
-        resultDiv.innerHTML += `<h2>$P</h2>`;
-        /*resultDiv.innerHTML += `<h2>${country.cities[step].name}</h2>`;*/
-        /*resultDiv.innerHTML += `<img src="${country.cities[step].imageUrl}" alt="hjh">`;*/
-      /*} else {
-        resultDiv.innerHTML = 'Country not found.';
-      }*/
     })
     .catch(error => {
       console.error('Error:', error);
